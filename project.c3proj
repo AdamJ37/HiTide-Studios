@@ -30,13 +30,23 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Start screen",
+			"Menu",
+			"Credits",
+			"Level 1 Layout",
+			"Level 2 Layout",
+			"Level 3 Layout"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Event sheet 2",
+			"Event sheet 1",
+			"Event sheet 3",
+			"Event sheet 4",
+			"Event sheet 5",
+			"Event sheet 6"
 		],
 		"subfolders": []
 	},
