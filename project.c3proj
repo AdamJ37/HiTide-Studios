@@ -37,7 +37,9 @@
 			"cloudBackground",
 			"TiledBackground",
 			"Text",
-			"Button"
+			"Button",
+			"TiledBackground2",
+			"Button2"
 		],
 		"subfolders": []
 	},
