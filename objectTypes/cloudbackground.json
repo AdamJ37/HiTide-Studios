@@ -1,0 +1,20 @@
+{
+	"name": "cloudBackground",
+	"plugin-id": "TiledBg",
+	"sid": 218455522235187,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 800,
+		"height": 417,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 9360938,
+		"useCollisionPoly": true
+	}
+}
