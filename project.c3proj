@@ -29,6 +29,14 @@
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
 		}
 	],
 	"uniqueId": "falj4gnpfpk",
@@ -43,7 +51,10 @@
 			"startScreenBackground",
 			"Button3",
 			"TiledBackground3",
-			"Text2"
+			"Text2",
+			"voidEnemy",
+			"cloudReaper",
+			"cloudReaperScythe"
 		],
 		"subfolders": []
 	},
@@ -68,7 +79,7 @@
 		"items": [
 			"Menu event sheet",
 			"Start Event sheet",
-			"Event sheet 3",
+			"Level 1 Event Sheet",
 			"Event sheet 4",
 			"Event sheet 5",
 			"Event sheet 6"
