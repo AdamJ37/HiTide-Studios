@@ -41,7 +41,9 @@
 			"TiledBackground2",
 			"Button2",
 			"startScreenBackground",
-			"Button3"
+			"Button3",
+			"TiledBackground3",
+			"Text2"
 		],
 		"subfolders": []
 	},
