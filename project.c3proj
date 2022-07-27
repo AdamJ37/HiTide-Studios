@@ -37,6 +37,14 @@
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
 		}
 	],
 	"uniqueId": "falj4gnpfpk",
@@ -55,7 +63,13 @@
 			"voidEnemy",
 			"cloudReaper",
 			"cloudReaperScythe",
-			"Apollo"
+			"Apollo",
+			"cloudEnemy",
+			"cloudEnemyLightning",
+			"Tilemap",
+			"TiledBackground4",
+			"Button4",
+			"Text3"
 		],
 		"subfolders": []
 	},
@@ -72,7 +86,8 @@
 			"Credits",
 			"Level 1 Layout",
 			"Level 2 Layout",
-			"Level 3 Layout"
+			"Level 3 Layout",
+			"How to play Layout"
 		],
 		"subfolders": []
 	},
@@ -83,7 +98,8 @@
 			"Level 1 Event Sheet",
 			"Event sheet 4",
 			"Event sheet 5",
-			"Event sheet 6"
+			"Event sheet 6",
+			"Event sheet 1"
 		],
 		"subfolders": []
 	},
