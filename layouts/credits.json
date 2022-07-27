@@ -44,15 +44,15 @@
 					"properties": {
 						"text": "Credits:\n\n\n\nCloud City\n\nMade by Adam, Samantha, and Lanie\n\nMarist PreCollege- Summer 2022\n\n☺",
 						"enable-bbcode": true,
-						"font": "Yet R",
+						"font": "Lucida Console",
 						"size": 12,
 						"line-height": 0,
 						"bold": true,
 						"italic": false,
 						"color": [
-							0,
-							0,
-							0,
+							0.34901960784313724,
+							0.34901960784313724,
+							0.34901960784313724,
 							1
 						],
 						"horizontal-alignment": "left",

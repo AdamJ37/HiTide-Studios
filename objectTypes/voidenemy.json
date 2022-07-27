@@ -50,7 +50,7 @@
 				"sid": 404033194378234,
 				"name": "Animation 1",
 				"isLooping": true,
-				"isPingPong": true,
+				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,
 				"speed": 9
