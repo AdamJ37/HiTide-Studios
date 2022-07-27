@@ -69,7 +69,8 @@
 			"Tilemap",
 			"TiledBackground4",
 			"Button4",
-			"Text3"
+			"Text3",
+			"deathExplosion"
 		],
 		"subfolders": []
 	},
