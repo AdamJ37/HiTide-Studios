@@ -70,7 +70,8 @@
 			"TiledBackground4",
 			"Button4",
 			"Text3",
-			"deathExplosion"
+			"deathExplosion",
+			"collectable"
 		],
 		"subfolders": []
 	},
