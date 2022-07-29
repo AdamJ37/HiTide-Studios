@@ -1,0 +1,430 @@
+{
+	"name": "Level 2 Event Sheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 464348363578291
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position-to-another-object",
+					"objectClass": "Apollo",
+					"sid": 511361595603527,
+					"parameters": {
+						"object": "PlayerBox",
+						"image-point-optional": "0"
+					}
+				}
+			],
+			"sid": 892333240154691
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 167663511238305,
+					"parameters": {
+						"key": 65
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Apollo",
+					"sid": 265889993345270,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 519527279773306
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 317606456464560,
+					"parameters": {
+						"key": 68
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Apollo",
+					"sid": 551198722159630,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 415880896546599
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-moved",
+					"objectClass": "PlayerBox",
+					"sid": 373119789792924,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Apollo",
+					"sid": 856051269015214,
+					"parameters": {
+						"animation": "\"Walk\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 516577645920191
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-stopped",
+					"objectClass": "PlayerBox",
+					"sid": 440451626587270,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Apollo",
+					"sid": 267263513387013,
+					"parameters": {
+						"animation": "\"Idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 468460901868685
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-jump",
+					"objectClass": "PlayerBox",
+					"sid": 138877730320075,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Apollo",
+					"sid": 698538024538838,
+					"parameters": {
+						"animation": "\"Jump\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 458865212219379
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-fall",
+					"objectClass": "PlayerBox",
+					"sid": 459061338632446,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Apollo",
+					"sid": 868811255796081,
+					"parameters": {
+						"animation": "\"Falling\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 677428314622085
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-landed",
+					"objectClass": "PlayerBox",
+					"sid": 966589918398141,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Apollo",
+					"sid": 810014753579733,
+					"parameters": {
+						"animation": "\"Idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 856693899835839,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-moving",
+							"objectClass": "PlayerBox",
+							"sid": 378247020000333,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Apollo",
+							"sid": 300547425659651,
+							"parameters": {
+								"animation": "\"Walk\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 325497453860354
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "PlayerBox",
+					"sid": 946635549901265,
+					"parameters": {
+						"object": "Enemy"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 300317382194881,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-falling",
+							"objectClass": "PlayerBox",
+							"sid": 892550408035212,
+							"behaviorType": "Platform"
+						},
+						{
+							"id": "compare-y",
+							"objectClass": "PlayerBox",
+							"sid": 879311753250250,
+							"parameters": {
+								"comparison": 2,
+								"y-co-ordinate": "Enemy.Y"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Enemy",
+							"sid": 881482449944669
+						},
+						{
+							"id": "set-vector-y",
+							"objectClass": "PlayerBox",
+							"sid": 113456948328154,
+							"behaviorType": "Platform",
+							"parameters": {
+								"vector-y": "-550"
+							}
+						}
+					],
+					"sid": 224473452640961
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 874124038096095
+						}
+					],
+					"actions": [
+						{
+							"id": "flash",
+							"objectClass": "Apollo",
+							"sid": 903038059240921,
+							"behaviorType": "Flash",
+							"parameters": {
+								"on-time": "0.1",
+								"off-time": "0.1",
+								"duration": "1.0"
+							}
+						}
+					],
+					"sid": 228312370029225
+				}
+			]
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Enemy",
+					"sid": 604657057303560,
+					"parameters": {
+						"instance-variable": "State",
+						"comparison": 0,
+						"value": "\"left\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Enemy",
+					"sid": 157853572218213,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Enemy",
+					"sid": 303113222779784,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 801046075046870
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "Enemy",
+					"sid": 759081837242365,
+					"parameters": {
+						"instance-variable": "State",
+						"comparison": 0,
+						"value": "\"right\""
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Enemy",
+					"sid": 476899140649788,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "right"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Enemy",
+					"sid": 916645386895855,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 438110506565187
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Enemy",
+					"sid": 484318251875013,
+					"parameters": {
+						"object": "EdgeMarkers"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 107146801824605,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Enemy",
+							"sid": 529574518683183,
+							"parameters": {
+								"instance-variable": "State",
+								"comparison": 0,
+								"value": "\"right\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 694380165705670,
+							"parameters": {
+								"instance-variable": "State",
+								"value": "\"left\""
+							}
+						}
+					],
+					"sid": 120528996394939
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 313188434478090
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Enemy",
+							"sid": 777147642007778,
+							"parameters": {
+								"instance-variable": "State",
+								"value": "\"right\""
+							}
+						}
+					],
+					"sid": 724859406999743
+				}
+			]
+		}
+	],
+	"sid": 829484403742520
+}

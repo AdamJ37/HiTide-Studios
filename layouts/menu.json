@@ -23,8 +23,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -7,
-						"y": -1,
+						"x": 19,
+						"y": 103,
 						"width": 871,
 						"height": 487,
 						"originX": 0,
@@ -74,7 +74,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Button2",
+					"type": "Level1Button",
 					"properties": {
 						"type": "button",
 						"text": "Level 1",
@@ -105,69 +105,7 @@
 					}
 				},
 				{
-					"type": "Button2",
-					"properties": {
-						"type": "button",
-						"text": "Level 2",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "",
-						"class": ""
-					},
-					"uid": 10,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 340,
-						"y": 104,
-						"width": 160,
-						"height": 120,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "Button2",
-					"properties": {
-						"type": "button",
-						"text": "Level 3",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "",
-						"class": ""
-					},
-					"uid": 11,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 595,
-						"y": 233,
-						"width": 160,
-						"height": 120,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "Button2",
+					"type": "Level1Button",
 					"properties": {
 						"type": "button",
 						"text": "←",
@@ -187,6 +125,68 @@
 						"y": 405,
 						"width": 139,
 						"height": 36,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "Level2Button",
+					"properties": {
+						"type": "button",
+						"text": "Level 2",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 4,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 342,
+						"y": 135,
+						"width": 160,
+						"height": 120,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "Level3Button",
+					"properties": {
+						"type": "button",
+						"text": "Level 3",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 5,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 609,
+						"y": 225,
+						"width": 160,
+						"height": 120,
 						"originX": 0,
 						"originY": 0,
 						"color": [

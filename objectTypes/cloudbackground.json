@@ -7,14 +7,23 @@
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"image": {
+<<<<<<< Updated upstream
 		"width": 950,
 		"height": 495,
+=======
+		"width": 1842,
+		"height": 959,
+>>>>>>> Stashed changes
 		"originX": 0.5,
 		"originY": 0.5,
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
+<<<<<<< Updated upstream
 		"imageSpriteId": 2449832,
+=======
+		"imageSpriteId": 4663888,
+>>>>>>> Stashed changes
 		"useCollisionPoly": true
 	}
 }

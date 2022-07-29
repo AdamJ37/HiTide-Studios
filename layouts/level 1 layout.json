@@ -25,10 +25,39 @@
 					"world": {
 						"x": 0,
 						"y": 0,
-						"width": 854,
-						"height": 480,
+						"width": 1710,
+						"height": 959,
 						"originX": 0,
 						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EdgeMarkers",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 14,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 187,
+						"y": 519,
+						"width": 48,
+						"height": 48,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -69,11 +98,12 @@
 			"global": false
 		},
 		{
-			"name": "Layer 0",
+			"name": "Platforms",
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
 				{
+<<<<<<< Updated upstream
 					"type": "voidEnemy",
 					"properties": {
 						"initially-visible": true,
@@ -165,12 +195,19 @@
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
+=======
+					"type": "Apollo",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Walk",
+>>>>>>> Stashed changes
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 6,
 					"instanceVariables": {},
+<<<<<<< Updated upstream
 					"behaviors": {},
 					"world": {
 						"x": 313,
@@ -204,6 +241,16 @@
 					"world": {
 						"x": 34,
 						"y": -203,
+=======
+					"behaviors": {
+						"Flash": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 69,
+						"y": 900,
+>>>>>>> Stashed changes
 						"width": 50,
 						"height": 50,
 						"originX": 0.5,
@@ -219,14 +266,21 @@
 					}
 				},
 				{
+<<<<<<< Updated upstream
 					"type": "cloudEnemyLightning",
 					"properties": {
 						"initially-visible": true,
+=======
+					"type": "PlayerBox",
+					"properties": {
+						"initially-visible": false,
+>>>>>>> Stashed changes
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
+<<<<<<< Updated upstream
 					"uid": 19,
 					"instanceVariables": {},
 					"behaviors": {},
@@ -312,6 +366,36 @@
 						"y": -169,
 						"width": 50,
 						"height": 50,
+=======
+					"uid": 7,
+					"instanceVariables": {},
+					"behaviors": {
+						"ScrollTo": {
+							"properties": {
+								"enabled": true
+							}
+						},
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": true,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 68,
+						"y": 901,
+						"width": 48,
+						"height": 48,
+>>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -325,7 +409,11 @@
 					}
 				},
 				{
+<<<<<<< Updated upstream
 					"type": "collectable",
+=======
+					"type": "Enemy",
+>>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -333,12 +421,38 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
+<<<<<<< Updated upstream
 					"uid": 25,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 472,
 						"y": -160,
+=======
+					"uid": 11,
+					"instanceVariables": {
+						"State": "right"
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 330,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": true,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 594,
+						"y": 628,
+>>>>>>> Stashed changes
 						"width": 50,
 						"height": 50,
 						"originX": 0.5,

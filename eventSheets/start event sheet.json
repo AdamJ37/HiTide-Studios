@@ -1,5 +1,48 @@
 {
 	"name": "Start Event sheet",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "StartButton",
+					"sid": 673562498946694
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 942329214705427,
+					"parameters": {
+						"layout": "Menu"
+					}
+				}
+			],
+			"sid": 853277932437335
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "CreditsButton",
+					"sid": 787742597564603
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 193966827154866,
+					"parameters": {
+						"layout": "Credits"
+					}
+				}
+			],
+			"sid": 278493498719441
+		}
+	],
 	"sid": 139045561945944
 }

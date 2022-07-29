@@ -1,5 +1,69 @@
 {
 	"name": "Menu event sheet",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Level1Button",
+					"sid": 452863353471200
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 874099675558339,
+					"parameters": {
+						"layout": "Level 1 Layout"
+					}
+				}
+			],
+			"sid": 768902026301954
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Level2Button",
+					"sid": 233358604080164
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 432019853466313,
+					"parameters": {
+						"layout": "Level 2 Layout"
+					}
+				}
+			],
+			"sid": 171108447323311
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Level3Button",
+					"sid": 650886674740226
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 287408210942118,
+					"parameters": {
+						"layout": "Level 3 Layout"
+					}
+				}
+			],
+			"sid": 867822452049809
+		}
+	],
 	"sid": 667200215205412
 }
