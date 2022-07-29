@@ -103,7 +103,6 @@
 			"subLayers": [],
 			"instances": [
 				{
-<<<<<<< Updated upstream
 					"type": "voidEnemy",
 					"properties": {
 						"initially-visible": true,
@@ -194,24 +193,21 @@
 					"type": "Apollo",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
-=======
-					"type": "Apollo",
-					"properties": {
-						"initially-visible": true,
 						"initial-animation": "Walk",
->>>>>>> Stashed changes
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 6,
 					"instanceVariables": {},
-<<<<<<< Updated upstream
-					"behaviors": {},
+					"behaviors": {
+						"Flash": {
+							"properties": {}
+						}
+					},
 					"world": {
-						"x": 313,
-						"y": -167,
+						"x": 69,
+						"y": 900,
 						"width": 50,
 						"height": 50,
 						"originX": 0.5,
@@ -241,16 +237,6 @@
 					"world": {
 						"x": 34,
 						"y": -203,
-=======
-					"behaviors": {
-						"Flash": {
-							"properties": {}
-						}
-					},
-					"world": {
-						"x": 69,
-						"y": 900,
->>>>>>> Stashed changes
 						"width": 50,
 						"height": 50,
 						"originX": 0.5,
@@ -266,21 +252,14 @@
 					}
 				},
 				{
-<<<<<<< Updated upstream
 					"type": "cloudEnemyLightning",
 					"properties": {
 						"initially-visible": true,
-=======
-					"type": "PlayerBox",
-					"properties": {
-						"initially-visible": false,
->>>>>>> Stashed changes
 						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-<<<<<<< Updated upstream
 					"uid": 19,
 					"instanceVariables": {},
 					"behaviors": {},
@@ -366,7 +345,27 @@
 						"y": -169,
 						"width": 50,
 						"height": 50,
-=======
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "PlayerBox",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
 					"uid": 7,
 					"instanceVariables": {},
 					"behaviors": {
@@ -395,7 +394,6 @@
 						"y": 901,
 						"width": 48,
 						"height": 48,
->>>>>>> Stashed changes
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -409,11 +407,7 @@
 					}
 				},
 				{
-<<<<<<< Updated upstream
 					"type": "collectable",
-=======
-					"type": "Enemy",
->>>>>>> Stashed changes
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -421,14 +415,35 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-<<<<<<< Updated upstream
 					"uid": 25,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
 						"x": 472,
 						"y": -160,
-=======
+						"width": 50,
+						"height": 50,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Enemy",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
 					"uid": 11,
 					"instanceVariables": {
 						"State": "right"
@@ -452,7 +467,6 @@
 					"world": {
 						"x": 594,
 						"y": 628,
->>>>>>> Stashed changes
 						"width": 50,
 						"height": 50,
 						"originX": 0.5,

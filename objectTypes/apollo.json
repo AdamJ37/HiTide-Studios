@@ -1,12 +1,6 @@
 {
 	"name": "Apollo",
 	"plugin-id": "Sprite",
-<<<<<<< Updated upstream
-	"sid": 697473510392829,
-	"isGlobal": false,
-	"instanceVariables": [],
-	"behaviorTypes": [],
-=======
 	"sid": 718834791475567,
 	"isGlobal": false,
 	"instanceVariables": [],
@@ -16,8 +10,8 @@
 			"name": "Flash",
 			"sid": 993827157955992
 		}
+
 	],
->>>>>>> Stashed changes
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -31,26 +25,6 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-<<<<<<< Updated upstream
-						"imageSpriteId": 210218,
-						"collisionPoly": {
-							"points": [
-								0,
-								0,
-								0.5,
-								0,
-								0.98,
-								0,
-								0.98,
-								0.5,
-								0.98,
-								0.98,
-								0.5,
-								0.98,
-								0,
-								0.98,
-								0,
-=======
 						"imageSpriteId": 5315050,
 						"collisionPoly": {
 							"points": [
@@ -69,7 +43,6 @@
 								0.32,
 								0.66,
 								0.3,
->>>>>>> Stashed changes
 								0.5
 							]
 						},
@@ -84,26 +57,6 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-<<<<<<< Updated upstream
-						"imageSpriteId": 1980837,
-						"collisionPoly": {
-							"points": [
-								0,
-								0,
-								0.5,
-								0,
-								0.98,
-								0,
-								0.98,
-								0.5,
-								0.98,
-								0.98,
-								0.5,
-								0.98,
-								0,
-								0.98,
-								0,
-=======
 						"imageSpriteId": 1548953,
 						"collisionPoly": {
 							"points": [
@@ -122,7 +75,6 @@
 								0.34,
 								0.64,
 								0.22,
->>>>>>> Stashed changes
 								0.5
 							]
 						},
@@ -137,9 +89,6 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-<<<<<<< Updated upstream
-						"imageSpriteId": 7193042,
-=======
 						"imageSpriteId": 8104103,
 						"collisionPoly": {
 							"points": [
@@ -184,7 +133,6 @@
 						"exportFormat": "png",
 						"exportQuality": 0.8,
 						"imageSpriteId": 9892937,
->>>>>>> Stashed changes
 						"collisionPoly": {
 							"points": [
 								0.3,
@@ -207,8 +155,6 @@
 						},
 						"useCollisionPoly": true,
 						"duration": 1
-<<<<<<< Updated upstream
-=======
 					}
 				],
 				"sid": 529875247067333,
@@ -252,7 +198,6 @@
 						},
 						"useCollisionPoly": true,
 						"duration": 1
->>>>>>> Stashed changes
 					},
 					{
 						"width": 50,
@@ -262,11 +207,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-<<<<<<< Updated upstream
-						"imageSpriteId": 6424200,
-=======
 						"imageSpriteId": 8204836,
->>>>>>> Stashed changes
 						"collisionPoly": {
 							"points": [
 								0.3,
@@ -289,9 +230,6 @@
 						},
 						"useCollisionPoly": true,
 						"duration": 1
-<<<<<<< Updated upstream
-					},
-=======
 					}
 				],
 				"sid": 114662919720799,
@@ -304,7 +242,6 @@
 			},
 			{
 				"frames": [
->>>>>>> Stashed changes
 					{
 						"width": 50,
 						"height": 50,
@@ -313,26 +250,6 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-<<<<<<< Updated upstream
-						"imageSpriteId": 9187973,
-						"collisionPoly": {
-							"points": [
-								0,
-								0,
-								0.5,
-								0,
-								0.98,
-								0,
-								0.98,
-								0.5,
-								0.98,
-								0.98,
-								0.5,
-								0.98,
-								0,
-								0.98,
-								0,
-=======
 						"imageSpriteId": 1149873,
 						"collisionPoly": {
 							"points": [
@@ -351,7 +268,6 @@
 								0.3,
 								0.68,
 								0.3,
->>>>>>> Stashed changes
 								0.5
 							]
 						},
@@ -359,13 +275,8 @@
 						"duration": 1
 					}
 				],
-<<<<<<< Updated upstream
-				"sid": 236674136548704,
-				"name": "Animation 1",
-=======
 				"sid": 510046778961730,
 				"name": "Falling",
->>>>>>> Stashed changes
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
