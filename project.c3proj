@@ -40,8 +40,32 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Tilemap",
-			"name": "Tilemap",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Flash",
+			"name": "Flash",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r302",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
 			"author": "Scirra",
 			"version": "r302",
 			"bundled": false
@@ -55,23 +79,19 @@
 			"Text",
 			"Button",
 			"TiledBackground2",
-			"Button2",
+			"Level1Button",
 			"startScreenBackground",
-			"Button3",
+			"StartButton",
 			"TiledBackground3",
 			"Text2",
-			"voidEnemy",
-			"cloudReaper",
-			"cloudReaperScythe",
+			"CreditsButton",
+			"Level2Button",
+			"Level3Button",
 			"Apollo",
-			"cloudEnemy",
-			"cloudEnemyLightning",
-			"Tilemap",
-			"TiledBackground4",
-			"Button4",
-			"Text3",
-			"deathExplosion",
-			"collectable"
+			"PlayerBox",
+			"Keyboard",
+			"Enemy",
+			"EdgeMarkers"
 		],
 		"subfolders": []
 	},
@@ -88,8 +108,7 @@
 			"Credits",
 			"Level 1 Layout",
 			"Level 2 Layout",
-			"Level 3 Layout",
-			"How to play Layout"
+			"Level 3 Layout"
 		],
 		"subfolders": []
 	},
@@ -98,10 +117,9 @@
 			"Menu event sheet",
 			"Start Event sheet",
 			"Level 1 Event Sheet",
-			"Event sheet 4",
-			"Event sheet 5",
-			"Event sheet 6",
-			"Event sheet 1"
+			"Level 2 Event Sheet",
+			"Credits Event Sheet",
+			"Level 3 Event Sheet"
 		],
 		"subfolders": []
 	},
