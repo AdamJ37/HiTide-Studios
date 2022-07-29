@@ -7,14 +7,14 @@
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"image": {
-		"width": 1842,
-		"height": 959,
+		"width": 960,
+		"height": 499,
 		"originX": 0.5,
 		"originY": 0.5,
 		"originalSource": "",
 		"exportFormat": "png",
 		"exportQuality": 0.8,
-		"imageSpriteId": 4663888,
+		"imageSpriteId": 3800527,
 		"useCollisionPoly": true
 	}
 }

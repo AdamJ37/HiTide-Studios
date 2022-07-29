@@ -9,8 +9,12 @@
 			"behaviorId": "Flash",
 			"name": "Flash",
 			"sid": 993827157955992
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 656955571011628
 		}
-
 	],
 	"effectTypes": [],
 	"animations": {

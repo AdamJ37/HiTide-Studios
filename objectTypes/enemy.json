@@ -16,6 +16,21 @@
 			"behaviorId": "Platform",
 			"name": "Platform",
 			"sid": 735503522006891
+		},
+		{
+			"behaviorId": "bound",
+			"name": "BoundToLayout",
+			"sid": 566878901269104
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 635731574941913
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 735836929253766
 		}
 	],
 	"effectTypes": [],

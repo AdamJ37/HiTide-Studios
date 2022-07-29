@@ -23,8 +23,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 19,
-						"y": 103,
+						"x": -9,
+						"y": -3,
 						"width": 871,
 						"height": 487,
 						"originX": 0,
@@ -148,7 +148,7 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 4,
+					"uid": 22,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -179,7 +179,7 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 5,
+					"uid": 26,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {

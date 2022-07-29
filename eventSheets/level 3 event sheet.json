@@ -402,28 +402,6 @@
 					"sid": 718001868924284
 				}
 			]
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "else",
-					"objectClass": "System",
-					"sid": 574572671135605
-				}
-			],
-			"actions": [
-				{
-					"id": "set-instvar-value",
-					"objectClass": "Enemy",
-					"sid": 428318387717280,
-					"parameters": {
-						"instance-variable": "State",
-						"value": "\"right\""
-					}
-				}
-			],
-			"sid": 657350121103698
 		}
 	],
 	"sid": 692116136642906
